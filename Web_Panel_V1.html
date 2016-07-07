@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<title>Quick Links</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<style type="text/css">
+	
+	/*Collapsible Panel CSS*/
+	.bs-example{
+	margin: auto;
+	    }
+	  
+	/*Background & Body CSS*/
+	body{
+	position: static;				
+	background-color:#0b5a7c;
+	    }
+	    
+	/*provide each category with some spacing*/
+	.category{
+	background-color:#333;
+	text-align:center;
+	padding-top:1%;
+	padding-bottom:2%;
+	    }
+	    
+	/*each row of links*/
+	.row{
+	display:table;
+	width:100%;
+	text-align:center;
+	vertical-align:middle;
+	margin-left:1%;
+	margin-right:1%;
+	    }
+	
+	/*actual links*/
+	.col{
+	background-color:Gray;
+	margin: auto;
+	text-align:center;
+	display:table-cell;
+	width:16%;
+	padding:1%;
+	border:solid 5px Black;
+	border-radius:50px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:26px;
+	    }
+	    
+	/*changes colour of links*/
+	a{
+	color:GhostWhite;
+	text-decoration:none;
+	    }
+	a:hover{
+	background-color:DarkGray;
+	font-color: Blue;
+	    }
+	    
+	/*Oval header section CSS*/
+	.oval{ 
+	text-align: center;
+	font-size:32px;
+	display:table-cell;
+	width: 250px; 
+	height: 140px; 
+	background: DeepSkyBlue;
+	padding-top:5%;
+	-moz-border-radius: 100px / 50px; 
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px; 
+	    }
+	    
+	/*List CSS*/
+    ul, li{
+	margin:0;
+	font-size:15px;
+	font-weight:Bold;
+	color: Blue;
+	padding:0 0 0 20px;    
+	    }
+
+    /*Column CSS*/
+	.column{
+	float: left;
+	font-size:20px;
+	font-weight:Bold;
+	background-color:#FFFFCC;
+	margin: 20px 35px 20px 35px;
+	    }
+	    
+	/*Column CSS*/
+	.extra_h2{
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	}
+	
+	/*For AD Command Font*/
+	h2{display: block;
+	font-size: 15px;
+	font-weight: bold;
+	color:"Green";
+	    }
+	
+	/*BrainyQuote CSS*/
+	.quote{
+	color: #091231;
+	font-size: 14px;
+	font-weight: bold;
+	}
+	
+	/*Footer CSS*/
+	footer{
+	width: auto; 
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Ubuntu, sans-serif;
+	color: #dcf1cc;
+	}
+    </style>
+	</head>
+	<body>
+		<br>
+<!-- Message Banner -->
+	<div style="background-color: Yellow; border: 1px solid red; margin: 6px; padding: 6px; font-weight: bold; text-align: center;">
+	This page has been modified to omit sensitive information like employee extension numbers and their role within Seneca College.
+	</div>
+		<div class="bs-example">
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><h4>
+								<b>+[Expand]</b><br>
+									<div class="oval">
+									<h4 class="oval"><b>Staff<br>Websites</b></h4>
+									</div>
+							</h4></a>
+						</h4>
+						<div class="category">
+							<div class="row">
+				<a class="col" href="https://secure.senecac.on.ca/oldpwservice/admin/student/" target="_blank"><div><b>PWAdmin</b></div></a>
+				<a class="col" href="https://itsservicedesk.senecacollege.ca/" target="_blank"><div><b>Footprints</b></div></a>
+				<a class="col" href="http://myseneca.ca/" target="_blank"><div><b>Mail 365</b></div></a>
+				<a class="col" href="https://scamacserver.senecac.on.ca/Default.aspx" target="_blank"><div><b>Mac Server</b></div></a>
+				<a class="col" href="http://faset.senecac.on.ca/map/room.php?room#" target="_blank"><div><b>Room# / Location</b></div></a>
+							</div>
+							
+						<div class="row">
+				<a class="col" href="https://erp.senecacollege.ca/" target="_blank"><div><b>TimeSheet</b></div></a>
+				<a class="col" href="http://www.senecac.on.ca/program/index.html" target="_blank"><div><b>Full-time Programs</b></div></a>
+				<a class="col" href="http://www.senecacollege.ca/ce/index.html" target="_blank"><div><b>Part-time Programs</b></div></a>
+				<a class="col" href="https://matrix.senecac.on.ca/webadmin/agree/agreement.php" target="_blank"><div><b>Matrix Account</b></div></a>
+				<a class="col" href="https://studentmoby.senecac.on.ca/Default.aspx" target="_blank"><div><b>Moby Server</b></div></a>
+						</div>
+						
+						<div class="row">
+				<a class="col" href="https://myid.senecacollege.ca" target="_blank"><div><b>MYID</b></div></a>
+				<a class="col" href="https://erp.senecacollege.ca" target="_blank"><div><b>Student Centre</b></div></a>
+				<a class="col" href="http://speedtest.net" onclick="window.open('http://testmy.net')" target="_blank"><div><b>Network Report</b></div></a>
+						</div>
+						
+						</div>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse">
+						<div class="panel-body">
+							<div class="column">
+    						<h2><u>Registration</u></h2>
+   	 						<ul>
+        					<li>Direct line: (416)493-xxxx</li><br>
+						<li>Full time office: <br> NH(xxxx) <br> SY(xxxx)<br> KG(xxxx) <br> MK(xxxx)</li><br>
+						<li>Part time office: <br> NH(xxxx) <br> MK(xxxx)</li>
+							    </ul>
+							</div>
+							
+							<div class="column">
+							    <h2><u>Neighbors/Service Desk by Campus</u></h2>
+							    <ul>
+							        <li>Main# 416 493 xxxx</li><br>
+								<li>NH(xxxx/9, xxxx)<br> SY(xxxx-41) <br> KG(xxxx, xxxx)<br> MK(xxxx, xxxx-3) </li>
+							    </ul>
+							</div>
+							
+							<div class="column">
+							    <h2><u>Continuing Ed.</u></h2>
+							    <ul>
+							        <li>Cont. ed: <br> NH(xxxx) <br> SY(xxxx) <br> KG(xxxx) <br> MK(xxxx-9)</li><br>
+							        <li>CDL extention: xxxx</li><br>
+							        <li>Embanet Problems: xxxx</li><br>
+							        <li>Embanet Tech Support: <br> 416 494 xxxx ext 1</li>
+							    </ul>
+							</div>
+							
+							<div class="column">
+							    <h2><u>Misc Office Extensions</u></h2>
+							    <ul>
+							        <li>Audio/Video: <br> NH(xxxx) <br> SY(xxxx/xxxx) <br> KG(xxxx) <br> MK(xxxx)</li><br>
+							        <li>OneCard Office: <br> NH(xxxx) <br> SY(xxxx) <br> KG(xxxx) <br> MK(xxxx)</li><br>
+							        <li>BlackBoard Team: <br> xxxx/xxxx</li>
+							    </ul>
+							</div>
+							
+			<div class="column">
+				<h2><b><u>Important Contact</u></b></h2>
+				<ul>
+					<li>Mxxxx:<br>
+					ext xxxx <br>Cell- 416 xxxx xxxx<br></li>
+					<br>
+				</ul>
+			</div>
+			
+							<div class="column">
+							    <h2 class="extra_h2"><mark>In Case Of Emergency</mark></h2>
+							    <ul>
+							        <li><h2 class="extra_h2"><mark>Call: 416-491-5050 ext. xx</mark></h2></li>
+							    </ul>
+							</div>
+
+						</div>
+					</div>
+					
+				</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><h4><b>+[Expand]<br>
+						<div class="oval">
+							<p style="white-space: pre;"><b>Useful<br>Websites</b></p>
+							</div>
+							</b></h4></a>
+					</h4>
+					<div class="category">
+						<div class="row">
+				<a class="col" href="https://my.senecacollege.ca/" target="_blank"><div><b>BlackBoard</b></div></a>
+				<a class="col" href="https://inside.senecacollege.ca/its/support/newstudent.html" target="_blank"><div><b>Information For New Students</b></div></a>
+				<a class="col" href="https://www2.senecacollege.ca/employee_directory/search.jsp;jsessionid=A4AF9021653C105E089D00BFD76985FB" target="_blank"><div><b>Employee Directory</b></div></a>
+				<a class="col" href="https://www2.senecacollege.ca/roombooking/" target="_blank"><div><b>Study Room Booking</b></div></a>
+				<a class="col" href="https://senecacollege.onthehub.com/" target="_blank"><div><b>Seneca Software Centre</b></div></a>
+						</div>
+						
+						<div class="row">
+				<a class="col" href="https://inside.senecacollege.ca/its/support/myseneca/overview/web_browser.html" target="_blank"><div><b>Internet Browser Configuration</b></div></a>
+				<a class="col" href="https://inside.senecacollege.ca/its/software/" target="_blank"><div><b>ITS Software / Licenses</b></div></a>
+				<a class="col" href="https://inside.senecacollege.ca/its/services/connection/senenet_extreme/" target="_blank"><div><b>SeneNET Extreme</b></div></a>
+				<a class="col" href="https://inside.senecacollege.ca/its/services/myid/" target="_blank"><div><b>Password Instructions</b></div></a>
+				<a class="col" href="http://www.senecacollege.ca/onecard/locations-hours.html" target="_blank"><div><b>One Card</b></div></a>
+						</div>
+					</div>
+					<div id="collapseTwo" class="panel-collapse collapse">
+						<div class="panel-body">
+
+						<div class="column">
+				<h2><u>Misc Office Extensions Contd.</u></h2>
+				<ul>
+					<li>Facilities Management: <br> NH(xxxx) <br> SY(xxxx) <br> KG(xxxx) <br> MK(xxxx)</li><br>
+					<li>Learning Centre: <br> NH(xxxx) <br> SY(xxxx) <br> KG(xxxx) <br> MK(xxxx)</li><br>
+				</ul>
+			</div>
+
+			<div class="column">
+				<h2><b><u>Misc Office Extensions Contd.</u></b></h2>
+				<ul>
+<li>Counseling/special needs: <br> NH(xxxx) <br> SY(xxxx) <br> KG(xxxx) <br> MK(xxxx)</li>
+				</ul>
+			</div>
+
+			<div class="column">
+				<h2><b><u>Staff Extensions</u></b></h2>
+				<ul>
+					<li>----EHD----</li>
+					<li>Chxxxxne: xxxx</li>
+					<li>Nxxxx: xxxx</li>
+					<li>Roxxxxk: xxxx</li>
+					<li>Uxxxx: xxxx</li>
+					<li>Nxxxx: xxxx</li>
+					<li>Shxxxxar: xxxx</li>
+					<li>Mxxxx: xxxx</li><br>
+				</ul>
+			</div> 
+			<div class="column">
+				<h2><b><u>Staff Extensions Contd.</u></b></h2>
+				<ul> 
+					<li>----FS----</li>
+					<li>xxxxsef: xxxx</li>
+					<li>Guxxxx: xxxx</li>
+					<li>xxxxin: xxxx</li>
+					<li>Frank: 3xxxx3</li>
+					<li>Kaxxxx: xxxx</li>
+				</ul>
+			</div>
+
+			</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><h4><b>+[Expand]</b><br>
+							<div class="oval">
+								<p style="white-space: pre;"><b>AD<br>Command</b></p>
+								</div>
+								</h4></a>
+					</h4>
+					<h2 class="h2">net1 user username /domain</h2>
+				</div><!--/*/div4*/-->
+				<div id="collapseThree" class="panel-collapse collapse">
+					<div class="panel-body">
+							
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><h4><b>+[Expand]</b><br>
+							<div class="oval">
+								<p style="white-space: pre;"><font size=""><b>Ticketing<br>&<br>Troubleshooting<br>Guide</b></font></p>
+							</div>
+							</h4></a>
+					</h4>
+				</div>
+				<div id="collapseFour" class="panel-collapse collapse">
+					<div class="panel-body">
+						<p></p>
+					</div>
+				</div>
+				<iframe src='https://onedrive.live.com/embed?cid=FF810F6AAA50EF43&resid=ff810f6aaa50ef43%21124&authkey=ANq1At640wOeoj4&em=2&wdStartOn=1' width='776px' height='588px' frameborder='0'>This is an embedded <a target='_blank' href='http://office.com'>Microsoft Office</a> document, powered by <a target='_blank' href='http://office.com/webapps'>Office Online</a>.</iframe>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<iframe src='https://onedrive.live.com/embed?cid=FF810F6AAA50EF43&resid=ff810f6aaa50ef43%21124&authkey=ANq1At640wOeoj4&em=2&wdStartOn=1' width='776px' height='588px' frameborder='0'>This is an embedded <a target='_blank' href='http://office.com'>Microsoft Office</a> document, powered by <a target='_blank' href='http://office.com/webapps'>Office Online</a>.</iframe>
+				<br>
+	<p><h2 class="quote"><br><font color="Black"><script type="text/javascript" src="http://www.brainyquote.com/link/quotebr.js"></script>
+<small><i><a href="http://www.brainyquote.com/quotes_of_the_day.html" target="_blank">more Quotes</a></i></small></font></p><br></h2>
+			</div>
+			</div>
+		</div>
+			</div>
+			<footer>
+				<p>
+					Seneca Student Service Desk
+				</p>
+				<br>
+			</footer>
+		</div>
+	</body>		
+</html>
